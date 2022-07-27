@@ -13,6 +13,9 @@
 <h1>Ciao</h1>
 
 <script>
+  const queryString = window.location.search;
+  console.log(queryString);
+  
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function() { 
     console.log(xmlHttp)
