@@ -258,6 +258,7 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript">
   var popup = document.getElementById('cookiesConsent');  
+  console.log(popup)
   var alreadyLoaded = window.localStorage.getItem('fbGrantConsent') === 'true';
   //Show the consent banner if consent is not granted, hide it if consent is already granted.  
   if (alreadyLoaded) {    
