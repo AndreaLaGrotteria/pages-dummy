@@ -31,7 +31,7 @@
     
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
-      console.log(xmlHttp)
+      console.log(xmlHttp.response)
     }
     xmlHttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true); // true for asynchronous 
     xmlHttp.send(null);
